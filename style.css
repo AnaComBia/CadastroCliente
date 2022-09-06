@@ -1,0 +1,73 @@
+.h1{
+    background-color: rgb(7, 7, 69);
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-color: rgb(7, 7, 69);
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.input{
+    width: 400px;
+    height: auto;
+}
+input{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style:groove;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+}
+
+.Allbutton{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+    border-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#reset {
+    background-color: rgb(101, 17, 17);
+    color: whitesmoke;
+}
+#reset:hover{
+    background-color: rgb(146, 59, 59);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+
+}
+#submit{
+    color: whitesmoke;
+    background-color: rgb(7, 7, 69);
+}
+#submit:hover{
+    background-color: rgb(33, 33, 97);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+    cursor: pointer;
+    transition: 0.1s ease-in;
+
+}
+input:focus{
+    background-color:rgba(240, 255, 255, 0.92);
+}
